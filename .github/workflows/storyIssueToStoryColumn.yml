@@ -1,0 +1,12 @@
+name: Move story ticets to Story Column
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  add-to-project-board:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Move story ticets to Story Column
+      uses: 
